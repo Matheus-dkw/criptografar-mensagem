@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F5FC;
+    width: 100%;
+    color: #0A3871;
+
+}
+.container{
+    display: inline-block;
+   
+    margin-left: auto;
+}
+ header img{
+     height: 30px; 
+     margin: 20px;  
+}
+textarea#textoentrada::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+}
+
+textarea#textoentrada {
+    width: 420px;
+    height: 331px;
+    background: transparent;
+    border: transparent;
+    font-size: 20pt;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+textarea#textoentrada:focus{
+    outline: none;
+    font-weight: bold;
+}
+.aviso-botoes{
+    position: absolute;
+    bottom: 2rem;
+    margin: 20px;
+}
+.botoes{
+    display: block;
+}
+input#b1{
+    
+    height: 43px;
+    width: 225px;
+    margin: 11px 10px 0px 0px;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 1px 3px 4px 0px grey;
+}
+input#b2{
+    
+    height: 43px;
+    width: 225px;
+    margin:  11px 10px 0px 16px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 25px;
+    box-shadow: 1px 3px 4px 0px grey;
+}
+input#b3{
+    position: absolute;
+    top: 500px;
+    left: 24px;
+    height: 43px;
+    width: 225px;
+    margin:  135px 20px 0px 20px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 25px;
+    box-shadow: 1px 3px 4px 0px grey;
+    
+     
+}
+
+div p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.box-msg{
+    display: inline-block;
+    width: 60%;
+    padding: 27px 28px;
+    
+}
+#logo{
+    padding: 0 10px;
+    width: 74px;
+}
+.formulario{
+    margin: 80px 0px 0 170px;
+}
+
+.box-img {
+    display: inline-block;
+    position: absolute;
+    
+    border: 2px solid white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+
+    top: 0%;
+    right: 0%;
+    
+    height: 690px;
+    width: 290px;
+    padding: 10px;
+    margin: 25px;
+    box-shadow: 4px 5px 12px -3px #808080b8;
+    
+}
+
+div#mensagem{
+    margin: 10px 30px 10px 10px ;
+}
+h2{
+    font-weight: bold;
+    margin: 0px 0 21px 0;
+    
+}
+img#boneco{ 
+    width: 90%;
+    
+}
+
+.icon{
+    display: inline-block;
+    background-color: rgb(81, 81, 81); 
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: white;
+   
+}
+
+.box-img #mensagem{
+    width: 100%;
+    overflow-wrap: break-word;  /* quebra de linha*/
+    text-align: left;
+}
+
+

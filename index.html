@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sprint1.style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="box-msg">
+                <img src="Logo.png" id="logo">
+                <div class="formulario">
+                    <div>
+
+                        <textarea name="msg" id="textoentrada" cols="30" rows="10" autofocus
+                            placeholder="Digite seu Texto"></textarea>
+
+                    </div>
+                    <div class="aviso-botoes">
+                        <div>
+                            <p> <span class="icon">!</span> letras minúsculas e sem acento.</p>
+                            <!--arrumar a exclamacao-->
+
+                        </div>
+
+                        <div class="botoes">
+                            <input type="button" value="Criptografar" id="b1" onclick="criptografar()">
+                            <input type="button" value="Descriptografar" id="b2" onclick="descriptografar()">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="box-img">
+
+                <div id="mensagem"> </div>
+
+                <div id="posicaoImagem">
+                    </br></br></br></br></br></br></br>
+                    <img src="boneco.png" id="boneco">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+                <div>
+                    <ul class="copiarLimpar">
+                        <input type="button" value="Copiar" id="b3" onclick="copiar()">
+                        
+                    </ul>
+                    </div>
+            </div>
+            <div>
+                <!-- <input type="button" value="Copiar" id="b3" onclick="copiar()"> -->
+            </div>
+        </div>
+
+        <script src="sprint1.js"></script>
+
+
+    </main>
+
+</body>
+
+</html>
